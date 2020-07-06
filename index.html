@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description"
+    content="La prueba que consiste en la elaboración de una landing page para un curso ficticio" />
+  <title>IUNIT</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Oswald:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/img/iunity-logo.png" type="image/favicon-icon">
+
+</head>
+
+<body>
+  <!-- menu navegación -->
+  <header>
+    <nav class="navbar">
+      <div class='nav'>
+        <!-- <div class="navbar-nav"> -->
+          <a class="nav-item" href="quienes-somos"> QUIÉNES SOMOS</a>
+          <a class="nav-item" href="/html/contacto.html">CONTACTO</a>
+          <a class="nav-item" href="/html/campus-virtual.html">CAMPUS VIRTUAL</a>
+        <!-- </div> -->
+      </div>
+      <div class='subnav'>
+        <a class='brand' href='index.html'><img class='logo' src='/img/iunity-logo.png' alt='logo IUNIT' />CENTRO DE
+          EDUCACIÓN SUPERIOR DE NEGOCIOS, INNOVACIÓN Y TECNOLOGÍA
+        </a>
+        <ul class='nav-list'>
+          <li class="subnav-item">
+            <a class='programas' href='programas.html' style="text-decoration: none"></a>PROGRAMAS
+            </a>
+          </li>
+          <li class="subnav-item">
+            <a class='nosotros' href='por-que-nosotros.html' style="text-decoration: none"></a>POR QUÉ NOSOTROS
+            </a>
+          </li>
+          <li class="subnav-item">
+            <a class='admision' href='admision.html' style="text-decoration: none"></a>ADMISIÓN
+            </a>
+          </li>
+          <li class="subnav-item">
+            <a class='iunit' href='iunit.html' style="text-decoration: none"></a>IUNIT
+            </a>
+          </li>
+          <li class="subnav-item">
+            <button class="ayuda">
+              ¿TE AYUDAMOS?
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="hambuger">
+      <!--
+        Made by Erik Terwan, https://codepen.io/erikterwan/pen/EVzeRP?editors=1000
+        Normally I would use Bootstrap
+        -->
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever
+        -->
+        <input type="checkbox" />
+        <img class='logo-hamburger'src='/img/iunity-logo.png'/>
+
+        <!--
+        Some spans to act as a hamburger.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <a><li>PROGRAMAS</li></a>
+          <a><li>POR QUÉ NOSOTROS</li></a>
+          <a><li>ADMISIÓN</li></a>
+          <a><li>IUNIT</li></a>
+          <a><li>QUIÉNES SOMOS</li></a>
+          <a><li>CONTACTO</li></a>
+          <a><li>CAMPUS VIRTUAL</li></a>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Sections: core, text, program, content -->
+  <main>
+    <section class='core'>
+      <img class='estudiante' src='https://s7.gifyu.com/images/HOME-iunity.png' alt='estudiante' />
+      <article class='texto-main'>
+        <h1 class='title'>Curso Iunit Identity</h1>
+        <hr class='horizontal'>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        </p>
+        <button class='info'>
+          MÁS INFORMACIÓN
+        </button>
+        <button class='help'>
+          <span>¡TE AYUDAMOS!</span>
+          <i class="fas fa-phone-alt"></i>
+        </button>
+      </article>
+      <div class='help-round'>
+        <button class='help-icon'>
+          <i class="fas fa-phone-alt"></i>
+        </button>
+      </div>
+    </section>
+    <section class='text'>
+      <p class='central-p'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+      </p>
+    </section>
+    <section class='programa'>
+      <h2>PROGRAMA</h2>
+      <div class='subtitle'>
+        <div class="vl"></div>
+        <h3>PROGRAMA</h3>
+      </div>
+    </section>
+    <section class='content'>
+      <div class='content-item item-curriculum'>
+        <img class='curriculum' src='https://s7.gifyu.com/images/curriculum-icon-iunity-01.png'
+          alt='icono curriculum curso' />
+        <div class='description'>
+          <h3>
+            CURRÍCULUM
+          </h3>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+          </p>
+          <a href="/" target="_blank">
+            LEER MÁS
+            <img src='/img/chevron_right-black-18dp.svg' alt='navigation arrow right' />
+          </a>
+        </div>
+      </div>
+      <div class='content-item item-modalidad'>
+        <div class='description'>
+          <h3>
+            MODALIDAD
+          </h3>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+          </p>
+          <a href="/" target="_blank">
+            LEER MÁS
+            <img src='/img/chevron_right-black-18dp.svg' alt='navigation arrow right' />
+          </a>
+        </div>
+        <img class='modalidad' src='https://s7.gifyu.com/images/modalidad-iunity-01-01.png'
+          alt='icono modalidad curso' />
+      </div>
+      <div class='content-item item-duracion'>
+        <img class='duracion' src='https://s7.gifyu.com/images/duracion-iunity-01-01.png' alt='icono duracion curso' />
+        <div class='description'>
+          <h3>
+            DURACIÓN
+          </h3>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+          </p>
+          <a href="/" target="_blank">
+            LEER MÁS
+            <img src='/img/chevron_right-black-18dp.svg' alt='navigation arrow right' />
+          </a>
+        </div>
+      </div>
+      <div class='content-item item-precio'>
+        <div class='description'>
+          <h3>
+            PRECIO
+          </h3>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+          </p>
+          <a href="/" target="_blank">
+            LEER MÁS
+            <img src='/img/chevron_right-black-18dp.svg' alt='navigation arrow right' />
+          </a>
+        </div>
+        <img class='precio' src='https://s7.gifyu.com/images/pricing-iunity-01.png' alt='icono precio curso' />
+      </div>
+      <div class='content-item item-calendario'>
+        <img class='calendario' src='https://s7.gifyu.com/images/calendario-iunity-01.png'
+          alt='icono calendario curso' />
+        <div class='description'>
+          <h3>
+            CALENDARIO
+          </h3>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+          </p>
+          <a href="/" target="_blank">
+            LEER MÁS
+            <img src='/img/chevron_right-black-18dp.svg' alt='navigation arrow right' />
+          </a>
+        </div>
+        
+      </div>
+      <div class='info2'>
+        <button>
+          MÁS INFORMACIÓN
+        </button>
+      </div>
+
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer class="page-footer">
+    <section class='footer'>
+      <div class='left-block'>
+        <!-- logo -->
+        <span class='footer-brand'>
+          <img src="/img/iunity-logo.png" alt="logo IUNIT" />
+          <p>CENTRO DE EDUCACIÓN SUPERIOR DE NEGOCIOS, INNOVACIÓN Y TECNOLOGÍA</p>
+        </span>
+        <!-- Social buttons -->
+        <div class='social'>
+          <ul class="icon-list">
+            <li class="foot-item">
+              <a>
+                <a href="https://es-es.facebook.com/" target="_blank"><i class="fab fa-facebook-f facebook"></i></a>
+              </a>
+            </li>
+            <li class="foot-item">
+              <a class="btn-floating btn-instagram mx-1">
+                <a href="https://www.instagram.com/?hl=es" target="_blank"><i
+                    class="fab fa-instagram instagram"></i></a>
+              </a>
+            </li>
+            <li class="foot-item">
+              <a class="btn-floating btn-tw mx-1">
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter twitter"></i></a>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Dirección-->
+        <div class="address">
+          <p>Calle Alfonso Rodríguez Santamaría 19. Madrid, España.</p>
+          <p>info@iunit.edu.es | (+34) 910 604 413</p>
+        </div>
+
+      </div>
+      <div class='right-block'>
+        <img class='logo-reyjc' src="https://s7.gifyu.com/images/logoURJC-iunity-01.png"
+          alt="logo universidad rey Juan Carlos">
+      </div>
+
+      <!-- Copyright -->
+
+      <div class='bottom-footer'>
+        <ul class='footer-end-line'>
+          <li class="copyright"><i class="far fa-copyright"></i> 2020 Centro de Educación Superior de Negocios,
+            Innovación y Tecnología
+          </li>
+          <li>
+            <a> Aviso Legal</a>
+          </li>
+          <li>
+            <a> Política de privacidad</a>
+          </li>
+          <li>
+            <a> Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </footer>
+</body>
+
+</html>
