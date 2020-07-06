@@ -726,7 +726,10 @@ a:focus {
 		align-content: space-around;
 		margin: 0 auto;
     }
-    
+    .logo-hamburger {
+    height:2rem;
+    width: auto;
+    }
 	.hambuger {
 		display: block;
         z-index: 99;
