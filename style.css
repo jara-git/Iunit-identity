@@ -486,6 +486,26 @@ a:focus {
 .content-item a img {
 	margin-left: 4rem;
 }
+.mas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 2rem;
+}
+.mas p {
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+.fas {
+    text-align: center;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
 .curriculum,
 .modalidad,
