@@ -152,7 +152,7 @@ header {
   
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
-    color: rgb(255, 255, 255);
+    color: #f9bd4d;
   }
   
   /* Style the active link (or home/logo) */
@@ -712,11 +712,21 @@ a:focus {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 3rem;
+    }
+    .texto-main {
+        display: grid;
+        grid-template-columns: min-content;
+
+    }
+    .texto-main p {
+        margin: 2rem 0;
     }
     
     .estudiante {
+        padding-top: 2rem;
         width: auto;
-        height: 16rem;
+        height: 22rem;
     }
 	.content {
 		display: flex;
