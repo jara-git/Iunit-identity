@@ -334,7 +334,7 @@ main {
 	width: 20rem;
 	margin: 5rem 0 0 -20rem;
 	justify-content: flex-start;
-	align-items: flex-start;
+	align-items: center;
 	text-overflow: ellipsis;
 	z-index: 1;
 	position: absolute;
@@ -493,6 +493,7 @@ a:focus {
 	color: #ffffff;
 }
 .right-block {
+    color: #ffffff;
 	grid-area: right;
 	display: flex;
 	flex-direction: column;
@@ -668,12 +669,21 @@ a:focus {
     .help {
         display: none;
     }
-    .hambuger {
+    .hamburger {
 		display: block;
         z-index: 99;
     }
     .navbar {
 		display: none;
+    }
+    .footer-brand {
+        display: none
+    }
+    .container-footer2{
+        padding: 1rem
+    }
+    .logo-footer2 {
+        visibility: visible;
     }
 
     
@@ -799,6 +809,7 @@ a:focus {
         justify-content: space-evenly;
         align-content: center;
         line-height: 1px;
+        font-size: .7rem;
     }
     .bottom-footer {
         display: flex;
@@ -814,6 +825,9 @@ a:focus {
         flex-direction: column;
         justify-content: space-evenly;
         width: 90%;
+    }
+    .right-block p{
+        font-size: .7rem;
     }
 
 }
