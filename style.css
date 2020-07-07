@@ -522,6 +522,11 @@ a:focus {
 	width: auto;
 	margin: 2rem 1rem;
 }
+.logo-footer2 {
+    visibility: hidden;
+    height: auto;
+    width: 8rem;
+}
 .footer-brand p {
 	display: flex;
 	margin-left: 1rem;
@@ -700,9 +705,7 @@ a:focus {
 	.title {
 		font-size: 1.5rem;
 	}
-	/* .estudiante {
-		display: none;
-    } */
+
     .core {
         background: #f2f9ff;
         max-width: 100%;
@@ -766,5 +769,51 @@ a:focus {
 	.content-item {
 		display: grid;
 		grid-template-columns: 1fr;
-	}
+    }
+    /* footer */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-evenly;   
+    }
+    .icon-list {
+        padding-right: 6rem;
+        justify-content: center;
+    }
+    .page-footer {
+        height: max-content;
+        text-align: center;
+    }
+    .footer-brand {
+        display: none
+    }
+    .container-footer2{
+        padding: 1rem
+    }
+    .logo-footer2 {
+        visibility: visible;
+    }
+    .address {
+        display: flexbox;
+        justify-content: space-evenly;
+        align-content: center;
+        line-height: 1px;
+    }
+    .bottom-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .copyright {
+        width: 100%;
+    }
+    .footer-end-line {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 90%;
+    }
+
 }
