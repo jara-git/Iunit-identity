@@ -503,6 +503,7 @@ a:focus {
 	align-self: center;
 	margin: 2rem;
 	height: min-content;
+	color: #ffffff;
 }
 .logo-reyjc {
 	width: 7rem;
@@ -584,7 +585,7 @@ a:focus {
 	width: 90%;
 	list-style: none;
 	color: #ffffff;
-	font-size: 0.7rem;
+	font-size: 0.65rem;
 }
 .footer-end-line a {
 	margin: 0 2rem;
@@ -680,12 +681,21 @@ a:focus {
         display: none
     }
     .container-footer2{
-        padding: 1rem
+		padding: 1rem 2rem;
+    	margin: 2rem;
+    	position: absolute;
     }
     .logo-footer2 {
         visibility: visible;
     }   
-
+	.icon-list {
+		padding-top: 3rem;
+	}
+	.right-block p{
+		font-size: .8rem;
+		font-weight: lighter;
+		
+    }
     
 }
 @media only screen and (max-width: 480px) {
@@ -838,7 +848,8 @@ a:focus {
         width: 90%;
 	}
 	.right-block p{
-        font-size: .7rem;
+		font-size: .7rem;
+		
     }
 
 }
