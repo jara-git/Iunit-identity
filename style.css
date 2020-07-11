@@ -816,7 +816,7 @@ a:focus {
         justify-content: space-evenly;   
     }
     .icon-list {
-        padding-right: 6rem;
+		padding: 0 6rem 1rem;
         justify-content: center;
     }
     .page-footer {
@@ -832,7 +832,7 @@ a:focus {
     .logo-footer2 {
         visibility: visible;
     }
-    
+   
 	.address {
         display: flexbox;
         justify-content: space-evenly;
@@ -858,7 +858,11 @@ a:focus {
 	.right-block p{
 		font-size: .7rem;
 		
-    }
+	}
+	.left-block {
+		font-size: .7rem;
+		text-align: left;
+	}
 
 }
 
