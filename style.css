@@ -284,7 +284,7 @@ main {
 /* TEXT */
 .text {
 	width: 100%;
-	height: 16rem !important;
+	height: 15rem !important;
 	position: relative;
 	font-family: Montserrat;
 	font-style: normal;
@@ -504,7 +504,9 @@ a:focus {
 	margin: 2rem;
 	height: min-content;
 	color: #ffffff;
+	font-size: .8rem;
 }
+
 .logo-reyjc {
 	width: 7rem;
 	height: auto;
@@ -524,16 +526,15 @@ a:focus {
 .footer-brand img {
 	height: 2rem;
 	width: auto;
-	margin: 2rem 1rem;
+	padding-right: .5rem;
 }
 .logo-footer2 {
-    visibility: hidden;
+    display: none;
     height: auto;
     width: 8rem;
 }
 .footer-brand p {
 	display: flex;
-	margin-left: 1rem;
 	width: 12rem;
 }
 .social {
@@ -676,7 +677,12 @@ a:focus {
     .navbar {
 		display: none;
 	}
-	/*añadidos nuevos*/
+	.footer {
+		height: min-content;
+	}
+	.page-footer {
+		height: 14rem;
+	}
 	.footer-brand {
         display: none
     }
@@ -686,8 +692,8 @@ a:focus {
     	position: absolute;
     }
     .logo-footer2 {
-        visibility: visible;
-    }   
+        display: inline-block;
+    }  
 	.icon-list {
 		padding-top: 3rem;
 	}
@@ -800,7 +806,9 @@ a:focus {
 		gap: 1rem;
 	}
     /* footer */
-   
+	.logo-footer2 {
+        display: inline-block;
+    }
 	.footer {
         display: flex;
         flex-direction: column;
